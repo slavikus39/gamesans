@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Press+Start+2P&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+
+
+}
+
+body {
+    background-image: url(/img/back2.jpg);
+    background-size: cover;    
+}
+
+
+
+header {
+    font-size: 40px;
+    padding: 40px;
+    color: aqua;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+    font-size: 40px;
+    color: rgb(0, 255, 255);
+}
+
+.menu {
+    margin: auto;
+    color: aqua;
+}
+
+
+
+.btn {
+    background-color: rgb(0, 229, 255);
+    color: rgb(0, 0, 0);
+    margin: 40px auto;
+    padding: 5px;
+    width: 312px;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: 0.2;
+}
+
+.btn:hover {
+scale: 1.2;
+transition: 1.2;
+}
+
+
+.btnReturn {
+    padding:17px;
+}
+
+.game-header {
+    display: flex;
+    align-items:  center;
+}
+
+.reset{
+    width: 150px;
+}
+
+
+.lvl{
+    flex-grow: 1;
+    text-align: left;
+}
+
+.null{
+    padding-top: 0 ;
+}
+
+
+.game-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+
+
+
+.rotate{
+    transform: perspective(350px) rotateY(180deg);
+    transition: 0.5s;
+}
+.model {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.context {
+    font-size: 40px;
+
+}
+
