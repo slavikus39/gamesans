@@ -1,1 +1,1 @@
-slavikus39.gamesans.io
+slavikus39/.gamesans.io
