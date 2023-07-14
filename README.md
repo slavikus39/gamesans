@@ -1,1 +1,1 @@
-slavikus39.github.io
+https://slavikus39.github.io/gamesans/
